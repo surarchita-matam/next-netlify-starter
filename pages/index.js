@@ -19,11 +19,11 @@ export default function Home() {
   <script type="text/javascript">
     window.ymConfig = {{ "bot": "x1665474087516", "host": "https://alpha9.yellowmessenger.com", "payload": {} }}
     ;(function () {
-      let w = window,
-        ic = w.YellowMessenger
+      const mywindow = window,
+        ic = mywindow.YellowMessenger
       if ("function" === typeof ic) ic("reattach_activator"), ic("update", ymConfig)
       else {
-        let d = document,
+        const d = document,
           i = function () {
             i.c(arguments)
           }
@@ -37,7 +37,7 @@ export default function Home() {
           (i.c = function (e) {
             i.q.push(e)
           }),
-          (w.YellowMessenger = i),
+          (mywindow.YellowMessenger = i),
           l()
       }
     })()
