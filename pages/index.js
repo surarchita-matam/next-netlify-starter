@@ -17,7 +17,7 @@ export default function Home() {
 
   <footer />
   <script type="text/javascript">
-    window.ymConfig = { "bot": "x1665474087516", "host": "https://alpha9.yellowmessenger.com", "payload": {} }
+    window.ymConfig = {{ "bot": "x1665474087516", "host": "https://alpha9.yellowmessenger.com", "payload": {} }}
     ;(function () {
       var w = window,
         ic = w.YellowMessenger
